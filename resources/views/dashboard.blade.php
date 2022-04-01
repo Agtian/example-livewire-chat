@@ -7,9 +7,11 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="px-4 py-5 bg-white space-y-6">
+            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 <livewire:create-post />
             </div>
         </div>
+        
+        <livewire:list-post />
     </div>
 </x-app-layout>
